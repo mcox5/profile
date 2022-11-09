@@ -1,0 +1,66 @@
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+body {
+  background-color: #ffffe3;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #00ad9e;
+  line-height: normal;
+  text-align: center;
+}
+
+.enlace {
+  color: #00ad9e;
+}
+.enlace :hover {
+  color: #00c26a;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px auto;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
